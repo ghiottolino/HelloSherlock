@@ -24,6 +24,8 @@
     <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
     <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/colors_example.xml -->
     <color name="pressed_example">#CCE20074</color>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/colors_hellosherlock.xml -->
+    <color name="pressed_hellosherlock">#CCE20074</color>
     <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/build/exploded-bundles/HelloSherlockProjectLibsActionBarSherlockUnspecified.aar/res/values/values.xml -->
     <declare-styleable name="SherlockActionBar">
 
@@ -516,18 +518,38 @@
         <item name="android:backgroundSplit">@drawable/ab_bottom_solid_example</item>
         <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
     </style>
-
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="ActionBar.Solid.Hellosherlock" parent="@style/Widget.Sherlock.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_hellosherlock</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_hellosherlock</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_hellosherlock</item>
+        <item name="progressBarStyle">@style/ProgressBar.Hellosherlock</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_example.xml -->
     <style name="ActionBar.Transparent.Example" parent="@android:style/Widget.Holo.ActionBar">
         <item name="android:background">@drawable/ab_transparent_example</item>
         <item name="android:progressBarStyle">@style/ProgressBar.Example</item>
     </style>
-
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="ActionBar.Transparent.Hellosherlock" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/ab_transparent_hellosherlock</item>
+        <item name="progressBarStyle">@style/ProgressBar.Hellosherlock</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_example.xml -->
     <style name="ActionBarTabStyle.Example" parent="@android:style/Widget.Holo.ActionBar.TabView">
         <item name="android:background">@drawable/tab_indicator_ab_example</item>
     </style>
-
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="ActionBarTabStyle.Hellosherlock" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_hellosherlock</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_example.xml -->
     <style name="ActionButton.CloseMode.Example" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
         <item name="android:background">@drawable/btn_cab_done_example</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="ActionButton.CloseMode.Hellosherlock" parent="@style/Widget.Sherlock.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_hellosherlock</item>
     </style>
     <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
@@ -545,19 +567,37 @@
     <style name="DropDownListView.Example" parent="@android:style/Widget.Holo.ListView.DropDown">
         <item name="android:listSelector">@drawable/selectable_background_example</item>
     </style>
-
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="DropDownListView.Hellosherlock" parent="@style/Widget.Sherlock.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_hellosherlock</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_example.xml -->
     <style name="DropDownNav.Example" parent="@android:style/Widget.Holo.Spinner">
         <item name="android:background">@drawable/spinner_background_ab_example</item>
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_example</item>
         <item name="android:dropDownSelector">@drawable/selectable_background_example</item>
     </style>
-
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="DropDownNav.Hellosherlock" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_hellosherlock</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hellosherlock</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_hellosherlock</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_example.xml -->
     <style name="PopupMenu.Example" parent="@android:style/Widget.Holo.ListPopupWindow">
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_example</item>
     </style>
-
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="PopupMenu.Hellosherlock" parent="@style/Widget.Sherlock.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hellosherlock</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_example.xml -->
     <style name="ProgressBar.Example" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/progress_horizontal_example</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="ProgressBar.Hellosherlock" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_hellosherlock</item>
     </style>
     <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/build/exploded-bundles/HelloSherlockProjectLibsActionBarSherlockUnspecified.aar/res/values/values.xml -->
     <style name="Sherlock.__TextAppearance.Small" parent="Widget">
@@ -747,7 +787,7 @@
         <item name="android:textStyle">normal</item>
     </style>
     <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_example.xml -->
-    <style name="Theme.Example" parent="@android:style/Theme.Holo">
+    <style name="Theme.Example" parent="@style/Theme.Sherlock">
         <item name="android:actionBarItemBackground">@drawable/selectable_background_example</item>
         <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
@@ -762,6 +802,23 @@
     <style name="Theme.Example.Widget" parent="@android:style/Theme.Holo">
         <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values/styles_hellosherlock.xml -->
+    <style name="Theme.Hellosherlock" parent="@style/Theme.Sherlock">
+        <item name="actionBarItemBackground">@drawable/selectable_background_hellosherlock</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Hellosherlock</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Hellosherlock</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Hellosherlock</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Hellosherlock</item>
+        <item name="actionBarStyle">@style/ActionBar.Transparent.Hellosherlock</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_hellosherlock</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_hellosherlock</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Hellosherlock</item>
+    </style>
+
+    <style name="Theme.Hellosherlock.Widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/PopupMenu.Hellosherlock</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Hellosherlock</item>
     </style>
     <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/build/exploded-bundles/HelloSherlockProjectLibsActionBarSherlockUnspecified.aar/res/values/values.xml -->
     <style name="Theme.Sherlock" parent="Sherlock.__Theme">

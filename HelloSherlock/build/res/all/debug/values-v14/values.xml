@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values-v14/styles_hellosherlock.xml -->
+    <style name="ActionBar.Solid.Hellosherlock" parent="@style/Widget.Sherlock.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_hellosherlock</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_hellosherlock</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_hellosherlock</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Hellosherlock</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Hellosherlock" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_hellosherlock</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Hellosherlock</item>
+    </style>
     <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values-v14/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
@@ -51,7 +63,24 @@
     <style name="TextAppearance.Sherlock.Widget.PopupMenu.Large" parent="android:TextAppearance.Holo.Widget.PopupMenu.Large" />
 
     <style name="TextAppearance.Sherlock.Widget.PopupMenu.Small" parent="android:TextAppearance.Holo.Widget.PopupMenu.Small" />
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/src/main/res/values-v14/styles_hellosherlock.xml -->
+    <style name="Theme.Hellosherlock" parent="@style/Theme.Sherlock">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_hellosherlock</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Hellosherlock</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Hellosherlock</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Hellosherlock</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Hellosherlock</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Hellosherlock</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_hellosherlock</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_hellosherlock</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Hellosherlock</item>
+    </style>
 
+    <style name="Theme.Hellosherlock.Widget" parent="@style/Theme.Sherlock">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Hellosherlock</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Hellosherlock</item>
+    </style>
+    <!-- From: file:/home/ntesser/AndroidStudioProjects/HelloSherlockProject/HelloSherlock/build/exploded-bundles/HelloSherlockProjectLibsActionBarSherlockUnspecified.aar/res/values-v14/values.xml -->
     <style name="Theme.Sherlock.Light.NoActionBar">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
